@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -71,56 +70,57 @@ def main():
                 st.error(f"❌ Error: {e}")
 
     st.markdown("---")
-    st.markdown("##  GynoPotentia Developers:")
+    st.markdown("## 👩‍🔬 GynoPotentia Developers:")
 
-    # Define columns for the profiles
+    # Define columns for the profiles inside main()
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
-with col1:
-    st.markdown("""
-        <div style='line-height: 1.3; color: #000000;'>
-            <h3 style='color:#006a4e;'>Dr. Kashif Iqbal Sahibzada</h3>
-            Assistant Professor<br>
-            Department of Health Professional Technologies,<br>
-            Faculty of Allied Health Sciences,<br>
-            The University of Lahore<br>
-            Post-Doctoral Fellow<br>
-            Henan University of Technology, Zhengzhou, China<br>
-            <b>Email:</b> kashif.iqbal@dhpt.uol.edu.pk | kashif.iqbal@haut.edu.cn
-        </div>
-    """, unsafe_allow_html=True)
+    
+    with col1:
+        st.markdown("""
+            <div style='line-height: 1.3; color: #000000;'>
+                <h3 style='color:#006a4e;'>Dr. Kashif Iqbal Sahibzada</h3>
+                Assistant Professor<br>
+                Department of Health Professional Technologies,<br>
+                Faculty of Allied Health Sciences,<br>
+                The University of Lahore<br>
+                Post-Doctoral Fellow<br>
+                Henan University of Technology, Zhengzhou, China<br>
+                <b>Email:</b> kashif.iqbal@dhpt.uol.edu.pk | kashif.iqbal@haut.edu.cn
+            </div>
+        """, unsafe_allow_html=True)
 
-with col2:
-    st.markdown("""
-        <div style='line-height: 1.3; color: #000000;'>
-            <h3 style='color:#006a4e;'>Dr. Samiya Iqbal</h3>
-            Bachelors of Medicine and Bachelors of Surgery<br>
-            School of Biochemistry and Biotechnology<br>
-            King Edward Medical University, Lahore<br>
-            <b>Email:</b> shumaila.ms.sbb@pu.edu.pk
-        </div>
-    """, unsafe_allow_html=True)
+    with col2:
+        st.markdown("""
+            <div style='line-height: 1.3; color: #000000;'>
+                <h3 style='color:#006a4e;'>Dr. Samiya Iqbal</h3>
+                Bachelors of Medicine and Bachelors of Surgery<br>
+                School of Biochemistry and Biotechnology<br>
+                King Edward Medical University, Lahore<br>
+                <b>Email:</b> shumaila.ms.sbb@pu.edu.pk
+            </div>
+        """, unsafe_allow_html=True)
 
-with col3:
-    st.markdown("""
-        <div style='line-height: 1.3; color: #000000;'>
-            <h3 style='color:#006a4e;'>Shumaila Shahid</h3>
-            MS Biochemistry<br>
-            School of Biochemistry and Biotechnology<br>
-            University of the Punjab, Lahore<br>
-            <b>Email:</b> shumaila.ms.sbb@pu.edu.pk
-        </div>
-    """, unsafe_allow_html=True)
+    with col3:
+        st.markdown("""
+            <div style='line-height: 1.3; color: #000000;'>
+                <h3 style='color:#006a4e;'>Shumaila Shahid</h3>
+                MS Biochemistry<br>
+                School of Biochemistry and Biotechnology<br>
+                University of the Punjab, Lahore<br>
+                <b>Email:</b> shumaila.ms.sbb@pu.edu.pk
+            </div>
+        """, unsafe_allow_html=True)
 
-with col4:
-    st.markdown("""
-        <div style='line-height: 1.3; color: #000000;'>
-            <h3 style='color:#006a4e;'>Muteeba Azhar</h3>
-            MS Researcher<br>
-            School of Biochemistry and Biotechnology<br>
-            University of the Punjab, Lahore<br>
-            <b>Email:</b> muteeba.azhar.sbb@pu.edu.pk
-        </div>
-    """, unsafe_allow_html=True)
+    with col4:
+        st.markdown("""
+            <div style='line-height: 1.3; color: #000000;'>
+                <h3 style='color:#006a4e;'>Muteeba Azhar</h3>
+                MS Researcher<br>
+                School of Biochemistry and Biotechnology<br>
+                University of the Punjab, Lahore<br>
+                <b>Email:</b> muteeba.azhar.sbb@pu.edu.pk
+            </div>
+        """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
