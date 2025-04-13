@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import base64
-!pip install joblib
 import joblib
 from rdkit import Chem
 from rdkit.Chem import AllChem
