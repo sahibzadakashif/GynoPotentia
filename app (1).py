@@ -70,7 +70,7 @@ def main():
                 st.error(f"❌ Error: {e}")
 
     st.markdown("---")
-    st.markdown("##  GynoPotentia Developers:")
+    st.markdown("## GynoPotentia Developers:")
 
     # Define columns for the profiles inside main()
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
