@@ -75,8 +75,7 @@ def main():
 
     # Define columns for the profiles
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
-
-   with col1:
+with col1:
     st.markdown("""
         <div style='line-height: 1.3; color: #000000;'>
             <h3 style='color:#006a4e;'>Dr. Kashif Iqbal Sahibzada</h3>
