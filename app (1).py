@@ -77,8 +77,8 @@ def main():
     
     with col1:
         st.markdown("""
-            <div style='line-height: 1.3; color: #800000;'>
-                <h3 style='color:#006a4e;'>Dr. Kashif Iqbal Sahibzada</h3>
+            <div style='line-height: 1.3; color: #000000;'>
+                <h3 style='color:#800000;'>Dr. Kashif Iqbal Sahibzada</h3>
                 Assistant Professor<br>
                 Department of Health Professional Technologies,<br>
                 Faculty of Allied Health Sciences,<br>
@@ -91,8 +91,8 @@ def main():
 
     with col2:
         st.markdown("""
-            <div style='line-height: 1.3; color: #800000;'>
-                <h3 style='color:#006a4e;'>Dr. Samiya Iqbal</h3>
+            <div style='line-height: 1.3; color: #000000;'>
+                <h3 style='color:#800000;'>Dr. Samiya Iqbal</h3>
                 Bachelors of Medicine and Bachelors of Surgery<br>
                 School of Biochemistry and Biotechnology<br>
                 King Edward Medical University, Lahore<br>
@@ -102,8 +102,8 @@ def main():
 
     with col3:
         st.markdown("""
-            <div style='line-height: 1.3; color: #800000;'>
-                <h3 style='color:#006a4e;'>Shumaila Shahid</h3>
+            <div style='line-height: 1.3; color: #000000;'>
+                <h3 style='color:#800000;'>Shumaila Shahid</h3>
                 MS Biochemistry<br>
                 School of Biochemistry and Biotechnology<br>
                 University of the Punjab, Lahore<br>
@@ -113,8 +113,8 @@ def main():
 
     with col4:
         st.markdown("""
-            <div style='line-height: 1.3; color: #800000;'>
-                <h3 style='color:#006a4e;'>Muteeba Azhar</h3>
+            <div style='line-height: 1.3; color: #000000;'>
+                <h3 style='color:#800000;'>Muteeba Azhar</h3>
                 MS Researcher<br>
                 School of Biochemistry and Biotechnology<br>
                 University of the Punjab, Lahore<br>
