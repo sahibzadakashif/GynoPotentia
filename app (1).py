@@ -91,7 +91,7 @@ def main():
         """, unsafe_allow_html=True)
 
      with col2:
-        st.markdown("""
+         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
                 <h3 style='color:#006a4e;'>Dr. Samiya Iqbal</h3>
                 Bechalors of Meddicine and Bachelors of Science<br>
