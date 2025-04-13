@@ -70,14 +70,14 @@ def main():
                 st.error(f"❌ Error: {e}")
 
     st.markdown("---")
-    st.markdown("## 👩‍🔬 GynoPotentia Developers:")
+    st.markdown("##  GynoPotentia Developers:")
 
     # Define columns for the profiles inside main()
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     
     with col1:
         st.markdown("""
-            <div style='line-height: 1.3; color: #000000;'>
+            <div style='line-height: 1.3; color: #800000;'>
                 <h3 style='color:#006a4e;'>Dr. Kashif Iqbal Sahibzada</h3>
                 Assistant Professor<br>
                 Department of Health Professional Technologies,<br>
@@ -91,7 +91,7 @@ def main():
 
     with col2:
         st.markdown("""
-            <div style='line-height: 1.3; color: #000000;'>
+            <div style='line-height: 1.3; color: #800000;'>
                 <h3 style='color:#006a4e;'>Dr. Samiya Iqbal</h3>
                 Bachelors of Medicine and Bachelors of Surgery<br>
                 School of Biochemistry and Biotechnology<br>
@@ -102,7 +102,7 @@ def main():
 
     with col3:
         st.markdown("""
-            <div style='line-height: 1.3; color: #000000;'>
+            <div style='line-height: 1.3; color: #800000;'>
                 <h3 style='color:#006a4e;'>Shumaila Shahid</h3>
                 MS Biochemistry<br>
                 School of Biochemistry and Biotechnology<br>
@@ -113,7 +113,7 @@ def main():
 
     with col4:
         st.markdown("""
-            <div style='line-height: 1.3; color: #000000;'>
+            <div style='line-height: 1.3; color: #800000;'>
                 <h3 style='color:#006a4e;'>Muteeba Azhar</h3>
                 MS Researcher<br>
                 School of Biochemistry and Biotechnology<br>
