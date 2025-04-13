@@ -93,10 +93,10 @@ def main():
         st.markdown("""
             <div style='line-height: 1.3; color: #000000;'>
                 <h3 style='color:#800000;'>Dr. Samiya Iqbal</h3>
-                Bachelors of Medicine and Bachelors of Surgery<br>
-                School of Biochemistry and Biotechnology<br>
+                Bachelors of Medicine and Bachelors of Surgery(MBBS)<br>
+                Fellowship of the College of Physicians and Surgeons(FCPS)<br>
                 King Edward Medical University, Lahore<br>
-                <b>Email:</b> shumaila.ms.sbb@pu.edu.pk
+            
             </div>
         """, unsafe_allow_html=True)
 
