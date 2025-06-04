@@ -118,7 +118,7 @@ def main():
                 MS Researcher<br>
                 School of Biochemistry and Biotechnology<br>
                 University of the Punjab, Lahore<br>
-                <b>Email:</b> muteeba.azhar.sbb@pu.edu.pk
+                <b>Email:</b> muteeba.res.sbb@pu.edu.pk
             </div>
         """, unsafe_allow_html=True)
 
